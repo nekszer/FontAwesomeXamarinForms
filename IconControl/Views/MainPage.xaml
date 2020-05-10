@@ -13,30 +13,30 @@
 
     <RelativeLayout VerticalOptions="Center" HeightRequest="450" WidthRequest="400" HorizontalOptions="Center">
 
-        <Frame BackgroundColor="White" CornerRadius="50" Margin="0" Padding="20"
+        <Frame BackgroundColor="White" CornerRadius="45" Margin="0" Padding="20"
                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.35}"
                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.2}">
             <Controls:Icon Glyph="HandRock" Color="DodgerBlue" Size="50" />
         </Frame>
-        <Frame BackgroundColor="White" CornerRadius="50" Margin="0" Padding="20"
+        <Frame BackgroundColor="White" CornerRadius="45" Margin="0" Padding="20"
                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.1}"
                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.4}">
             <Controls:Icon Glyph="HandSpock" Color="DodgerBlue" Size="50" />
         </Frame>
 
-        <Frame BackgroundColor="White" CornerRadius="50" Margin="0" Padding="20"
+        <Frame BackgroundColor="White" CornerRadius="45" Margin="0" Padding="20"
                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.6}"
                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.4}">
             <Controls:Icon Glyph="HandPaper" Color="DodgerBlue" Size="50" />
         </Frame>
 
-        <Frame BackgroundColor="White" CornerRadius="50" Margin="0" Padding="20"
+        <Frame BackgroundColor="White" CornerRadius="45" Margin="0" Padding="20"
                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.2}"
                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.67}">
             <Controls:Icon Glyph="HandLizard" Color="DodgerBlue" Size="50" />
         </Frame>
-        
-        <Frame BackgroundColor="White" CornerRadius="50" Margin="0" Padding="20"
+
+        <Frame BackgroundColor="White" CornerRadius="45" Margin="0" Padding="20"
                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}"
                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.67}">
             <Controls:Icon Glyph="HandScissors" Color="DodgerBlue" Size="50" />

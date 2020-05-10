@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LightForms:LightFormsApplication xmlns="http://xamarin.com/schemas/2014/forms"
+                                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                                  xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+                                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                                  mc:Ignorable="d"
+                                  x:Class="IconControl.App"
+                                  xmlns:LightForms="clr-namespace:LightForms;assembly=LightForms">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <OnPlatform x:Key="FontAwesome" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="Font Awesome 5 Free" />
+                <On Platform="Android" Value="FontAwesome.ttf#FontAwesome" />
+                <On Platform="UWP" Value="Assets/Fonts/FontAwesome.ttf#FontAwesome" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="Roboto" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="Roboto"/>
+                <On Platform="Android" Value="Roboto-Regular.ttf#Roboto" />
+                <On Platform="UWP" Value="Assets/Fonts/Roboto-Regular.ttf#Roboto" />
+            </OnPlatform>
+            
+            <Style TargetType="Button">
+                <Setter Property="Padding" Value="12,0" />
+                <Setter Property="FontFamily" Value="{DynamicResource Roboto}" />
+            </Style>
+
+            <Style TargetType="Label">
+                <Setter Property="FontFamily" Value="{DynamicResource Roboto}" />
+            </Style>
+
+            <Style TargetType="Picker">
+                <Setter Property="FontFamily" Value="{DynamicResource Roboto}" />
+            </Style>
+
+            <Style TargetType="DatePicker">
+                <Setter Property="FontFamily" Value="{DynamicResource Roboto}" />
+            </Style>
+
+            <Style TargetType="TimePicker">
+                <Setter Property="FontFamily" Value="{DynamicResource Roboto}" />
+            </Style>
+
+            <Style TargetType="Entry">
+                <Setter Property="FontFamily" Value="{DynamicResource Roboto}" />
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</LightForms:LightFormsApplication>

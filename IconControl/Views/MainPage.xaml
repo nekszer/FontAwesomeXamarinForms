@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:Controls="clr-namespace:IconControl.Controls"
+             mc:Ignorable="d"
+             x:Class="IconControl.Views.MainPage"
+             Title="FontAwesome Icons"
+             BackgroundColor="#eeeeee"
+             Visual="Material">
+
+
+    <RelativeLayout VerticalOptions="Center" HeightRequest="450" WidthRequest="400" HorizontalOptions="Center">
+
+        <Frame BackgroundColor="White" CornerRadius="50" Margin="0" Padding="20"
+               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.35}"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.2}">
+            <Controls:Icon Glyph="HandRock" Color="DodgerBlue" Size="50" />
+        </Frame>
+        <Frame BackgroundColor="White" CornerRadius="50" Margin="0" Padding="20"
+               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.1}"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.4}">
+            <Controls:Icon Glyph="HandSpock" Color="DodgerBlue" Size="50" />
+        </Frame>
+
+        <Frame BackgroundColor="White" CornerRadius="50" Margin="0" Padding="20"
+               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.6}"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.4}">
+            <Controls:Icon Glyph="HandPaper" Color="DodgerBlue" Size="50" />
+        </Frame>
+
+        <Frame BackgroundColor="White" CornerRadius="50" Margin="0" Padding="20"
+               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.2}"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.67}">
+            <Controls:Icon Glyph="HandLizard" Color="DodgerBlue" Size="50" />
+        </Frame>
+        
+        <Frame BackgroundColor="White" CornerRadius="50" Margin="0" Padding="20"
+               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.67}">
+            <Controls:Icon Glyph="HandScissors" Color="DodgerBlue" Size="50" />
+        </Frame>
+        
+    </RelativeLayout>
+
+
+</ContentPage>

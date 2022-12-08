@@ -12,7 +12,7 @@
     <PackageReference Include="Microsoft.AppCenter" Version="3.1.0" />
     <PackageReference Include="Microsoft.AppCenter.Analytics" Version="3.1.0" />
     <PackageReference Include="Microsoft.AppCenter.Crashes" Version="3.1.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Plugin.UI.Xaml" Version="1.2.1" />
     <PackageReference Include="Rg.Plugins.Popup" Version="1.2.0.223" />
     <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.11.982" />
